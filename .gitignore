@@ -1,10 +1,21 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 *.pyo
+.Python
+
+# Logs — không push
+logs/
 backup_logs/
 logs/*.bak
 logs/server_output.log
+
+# Data + Models — không push
+data/
+models/
+
+# IDE
 .vscode/
 .idea/
 .DS_Store
